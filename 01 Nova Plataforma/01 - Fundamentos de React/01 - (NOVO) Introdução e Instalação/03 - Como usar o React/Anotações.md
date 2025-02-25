@@ -18,7 +18,7 @@ Veja a barra de input da documentação por exemplo:
         onChange={newText => setSearchText(newText)} />
 ```
 
-Esse componente foi criado por um programador em outro arquivo com todas as suas funcionalidades, mas no arquivo app.tsx (que é o equivalente ao index.html) só está sendo chamado, então toda a inferface foi feita basicamente com dois componentes (o Input e o video).
+Esse componente foi criado por um programador em outro arquivo com todas as suas funcionalidades, mas no arquivo page.tsx (que é o equivalente ao index.html) só está sendo chamado, então toda a inferface foi feita basicamente com dois componentes (o Input e o video).
 
 O componente de vídeo por exemplo:
 
@@ -28,7 +28,7 @@ O componente de vídeo por exemplo:
         emptyHeading={`No matches for “${searchText}”`} />
 ```
 
-Ele tem um componente geral chamado de VideoList (é o que vai para o arquivo app.tsx), mas dentro desse componente ele tem outros componentes, um para o primeiro vídeo, para o segundo, etc.
+Ele tem um componente geral chamado de VideoList (é o que vai para o arquivo page.tsx), mas dentro desse componente ele tem outros componentes, um para o primeiro vídeo, para o segundo, etc.
 
 Veja o exemplo do componente Vídeo, ele é um componente que tem outros componentes dentro dele:
 
