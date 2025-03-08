@@ -39,7 +39,6 @@ export const City = (props: Props) => {
 export const CityProps = ({ name, location, avatar, quality }: Props) => {
   return (
     <div className="p-3">
-      {/* Usando variáveis de props */}
       <h1 className="text-2xl text-green-500">Props dos parâmetros = {name} - {location}</h1>
       <img
         src={avatar}
