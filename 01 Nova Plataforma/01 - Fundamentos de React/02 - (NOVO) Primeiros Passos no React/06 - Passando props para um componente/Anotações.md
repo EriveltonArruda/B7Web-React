@@ -1,4 +1,4 @@
-## Conteito de Props
+## Conceito de Props
 
 Props são propriedades do componente que criamos, são as informações obrigatórias que um componente deve receber, funciona igual a interface (ou um type) em orientação a objetos.
 
