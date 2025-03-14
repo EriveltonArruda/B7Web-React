@@ -1,12 +1,8 @@
-## Conceito
-
-O operador AND (&&) só executa as condições caso AMBAS sejam verdadeiras.
-
 ### Exemplo
 
 Quero que o parágrafo do autor só apareça se o autor for definido na page.
 
-Então abrimos colchetes e colocamos o author e os && com a condição que será executada caso exista um author, essa condição é o nosso parágrafo que contém o author.
+Então abrimos colchetes, colocamos o author (que é a condição) e os && com a ação que será executada caso exista um author (condição), nesse exemplo o parágrafo será a ação que será executada caso o author exista.
 
 ```
 {author &&
