@@ -26,7 +26,7 @@ Ou podemos criar o map dentro dos colchetes dentro da "ul", é assim que faremos
 
 ### Detalhe da função map()
 
-Sempre que for utilizar um map, lembre-se de que ele exige que você mapeie o item que está sendo retornado com um key, essa key será o person.id
+Sempre que for utilizar um map, lembre-se de que ele exige que você mapeie o item que está sendo retornado com uma key, essa key será o person.id
 
 ### Operador lógico &&
 

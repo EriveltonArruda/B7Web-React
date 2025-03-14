@@ -1,6 +1,7 @@
 // importando o tipo
 import { Person } from "@/Types/Person";
 
+// peopleList agora é um array de Person
 export const peopleList: Person[] = [
   { id: 1, name: "Fulano", profession: "mathematician" },
   { id: 2, name: "Ciclano", profession: "chemist" },
