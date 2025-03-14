@@ -1,3 +1,7 @@
+## Conceito
+
+O operador lógico vai executar a ação depois do && se a primeira condição for verdadeira.
+
 ### Exemplo
 
 Quero que o parágrafo do autor só apareça se o autor for definido na page.
