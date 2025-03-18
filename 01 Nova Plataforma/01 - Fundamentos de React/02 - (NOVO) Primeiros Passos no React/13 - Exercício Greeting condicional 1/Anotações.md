@@ -16,9 +16,9 @@ Em seguida colocamos a variável fullTime na área do relógio.
 
 O próximo passo é criar as condicionais que vão mostrar as mensagens baseadas na hora.
 
-Podemos fazer de duas formas:
+Podemos fazer de várias formas, mas vamos focar nesses dois:
 
-1. Diretamente no JSX
+1. Diretamente no JSX.
 2. Criar uma variável e usar ela no JSX.
 
 Faremos da segunda forma nessa aula e diretamente no JSX ficará para a próxima aula.
@@ -27,4 +27,4 @@ Pegamos a hora atual usando o new Date().getHours().
 
 Também criaremos uma variável chamada "greetings" para armazenar dentro dela a mensagem criada na condicional.
 
-Basicamente faremos um if com os horários relacionados a manhã, tarde e noite e em seguida vamos colocar essa variável greetings dentro da área da mensagem.
+Basicamente faremos um if com os horários relacionados a manhã, tarde e noite com suas respectivas mensagens e em seguida vamos colocar essa variável greetings dentro da área da mensagem.
