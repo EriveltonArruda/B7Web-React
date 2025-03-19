@@ -7,13 +7,16 @@ const EmojiRating = ({ rate }: EmojiRatingProps) => {
   if (rate > 5) rate = 5;
   if (rate < 0) rate = 0;
 
-  // Emojis
+  // convertendo número inteiro
   const rateInt = Math.floor(rate);
 
-  const stars = '😄'.repeat(rateInt) + '😶'.repeat(5 - rateInt);
+  // repetição das estrelas
+  const stars = '🌟'.repeat(rateInt) + '⭐'.repeat(5 - rateInt);
 
   return (
+    // flex para deixar lado a lado
     <div className="flex items-center text-6xl">
+      {/* toFixed(1) para exibir um decimal depois do ponto */}
       <div className="bg-gray-700 p-2 rounded">{rate.toFixed(1)}</div>
       <div className="ml-3">{stars}</div>
     </div>
