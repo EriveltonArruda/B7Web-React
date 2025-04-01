@@ -1,5 +1,6 @@
 export const City = () => {
   return (
+    // uso do fragment
     <>
       <h1>João Pessoa</h1>
       <img

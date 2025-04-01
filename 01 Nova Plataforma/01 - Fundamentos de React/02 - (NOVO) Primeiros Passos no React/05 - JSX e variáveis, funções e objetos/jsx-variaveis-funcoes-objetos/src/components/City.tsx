@@ -34,6 +34,7 @@ export const City = () => {
       <ul>
         {/* Usando Objetos inline no JSX */}
         <li style={{ color: "green", fontSize: '30px' }}>{data.quality[0]}</li>
+        {/* Usando objetos */}
         <li>{data.quality[1]}</li>
         <li>{data.quality[2]}</li>
       </ul>

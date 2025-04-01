@@ -4,7 +4,7 @@ Podemos renderizar algo na tela a partir de um condicional (isso mesmo, com um i
 
 ### Exemplo
 
-Vamos deixar nosso author como opcional na Props, porque se criarmos um Card na page sem o autor, na condicional podemos deixar como autor desconhecido.
+Vamos deixar nosso author como opcional na Props, porque se criarmos um Card na page sem o autor, podemos deixar como autor desconhecido na condicional.
 
 Como você sabe, o componente só pode ter apenas um return, mas isso pode ser evitado com um if, assim podemos ter 2 return porque um return está em escopo de bloco, o return do if só será executado se a condição for verdadeira, caso contrário entrará no return do componente.
 

@@ -8,7 +8,7 @@ Um componente sempre tem que retornar um elemento padrão (root).
 
 Você pode criar uma div com vários elementos dentro, mas o JSX não aceita vários elementos fora de uma div.
 
-Existe uma alternativa caso não queira utilizar uma div, é chamado de "fragment", ele serve como um elemento root, mas não é nenhum elemento, é uma tag sem nome.
+Existe uma alternativa caso não queira utilizar uma div, é chamado de "fragment", ele serve como um elemento root, mas não é nenhum elemento, é uma tag sem nome "<> </>".
 
 ### Regra 2
 

@@ -9,6 +9,7 @@ type Props = {
   quality: string[];
 }
 
+// Utilizando a props
 export const City = (props: Props) => {
   // Props em variáveis.
   const { name, location, quality } = props;
@@ -35,7 +36,7 @@ export const City = (props: Props) => {
   );
 }
 
-// Usando props no parâmetro
+// Usando props no parâmetro para não usar em variáveis
 export const CityProps = ({ name, location, avatar, quality }: Props) => {
   return (
     <div className="p-3">

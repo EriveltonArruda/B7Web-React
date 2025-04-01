@@ -4,7 +4,7 @@ function Page() {
   return (
     <div>
       <h1 className="font-bold text-2xl">Olá Mundo!</h1>
-
+      {/* Usando Children */}
       <Card>
         Frase de Efeito!
       </Card>

@@ -10,8 +10,7 @@ Então abrimos colchetes, colocamos o author (que é a condição) e os && com a
 
 ```
 {author &&
-  <p className="text-right text-sm">- {author}</p>
-}
+  <p className="text-right text-sm">- {author}</p>}
 ```
 
 Se não tiver um author na page.tsx, o parágrafo não vai nem existir na página.
