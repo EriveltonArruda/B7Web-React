@@ -1,10 +1,10 @@
-// criação de componente
+// criação de componente (pode usar arrow function também)
 function Page() {
   // Componentes geralmente são criados a partir de funções e elas retornam código JSX.
   // O código de retorno pode ser colocado dentro de parênteses ou fora, mantenha o hábito de deixar dentro de parênteses.
   return (
     // Todo componente retorna apenas um único elemento, 
-    // então se você colocar um h1 e o h3 dentro do return ocasionará um erro, 
+    // Se você colocar um h1 e o h3 dentro do return ocasionará um erro, 
     // se quiser renderizar os dois elementos na tela, coloque-os dentro de uma div.
     <div>
       {/* Estilizando com Tailwind, utilizamos className no lugar de class */}
