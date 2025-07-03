@@ -16,17 +16,7 @@ A primeira página do projeto React por exemplo é um componente que tem vários
 
 ### Como criar um componente?
 
-Componentes geralmente são criados a partir de funções e elas retornam código JSX.
-
-O código de retorno pode ser colocado dentro de parênteses ou fora, mantenha o hábito de deixar dentro de parênteses.
-
-Para que o componente apareça na página web, é necessário exportar o componente, só o ato de criar não faz com que ele apareça.
-
 Também podemos criar uma função anônima como componente, tem um snippet chamado "sfc (Stateless Function Component)" que cria uma função anônima e já cria o exportador junto.
-
-### return
-
-Todo componente retorna apenas um único elemento, então se você colocar um h1 e o h3 dentro do return ocasionará um erro, se quiser renderizar os dois elementos na tela, coloque-os dentro de uma div.
 
 ### className
 
