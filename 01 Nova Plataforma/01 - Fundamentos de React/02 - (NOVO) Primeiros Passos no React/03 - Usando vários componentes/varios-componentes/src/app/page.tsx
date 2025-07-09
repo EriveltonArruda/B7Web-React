@@ -1,3 +1,5 @@
+// Ao importar GeoForm, importamos Square e Circle 
+// Porque GeoForm importa os dois no arquivo dele
 import { GeoForm } from '@/components/GeoForm';
 
 function Page() {

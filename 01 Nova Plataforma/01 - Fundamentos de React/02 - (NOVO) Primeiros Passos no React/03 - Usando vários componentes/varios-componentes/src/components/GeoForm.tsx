@@ -1,3 +1,5 @@
+// Não é necessário colocar @ porque os arquivos estão na mesma pasta do componente
+// Lembrando que o @ vai na pasta src
 import { Circle, Square } from "./Geo";
 
 export const GeoForm = () => {

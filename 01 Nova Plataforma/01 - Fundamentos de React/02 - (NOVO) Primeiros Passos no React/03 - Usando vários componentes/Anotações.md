@@ -5,3 +5,5 @@ Como visto na própria documentação do React (no exemplo dos vídeos) temos um
 Para exemplificar, vou criar um arquivo chamado GeoForm e dentro dele vou importar e colocar os componentes de Square e Circle. 
 
 Na página principal eu importo somente o geoForm e tanto o Square quanto o Circle serão exibidos na tela da mesma forma como se fossem importados separadamente.
+
+Criando um componente que tem outros componentes dentro dele nos ajuda a manter o código mais organizado e melhor para dar manutenção.
