@@ -1,6 +1,8 @@
 // Importando um componente export default
+// componentes que são export default podem ser chamados de qualquer nome na hora da importação.
 import Quadrado from '@/components/square';
 // Importando um componente export normal.
+// fazemos importação dos itens individualmente.
 import { Square, Circle } from '@/components/Geo'
 // importando um componente default e export normal
 import Quad, { Redondo } from '@/components/deafult-normal';
@@ -21,4 +23,5 @@ function Page() {
   )
 }
 
+// Outra forma de usar export (default)
 export default Page;
